@@ -1,0 +1,3 @@
+-keep class com.siliconfet.thermalmonitor.** { *; }
+-keep class rikka.shizuku.** { *; }
+-keep class dev.rikka.** { *; }

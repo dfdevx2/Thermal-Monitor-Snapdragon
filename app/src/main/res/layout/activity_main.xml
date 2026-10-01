@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E2E"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THERMAL MONITOR"
+            android:textColor="#F8F8F2"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by SiliconFET &amp; DFDX047"
+            android:textColor="#6272A4"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carregando..."
+            android:textColor="#8BE9FD"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:background="#282A36"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="INICIAR MONITOR"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:backgroundTint="#50FA7B"
+            android:textColor="#1E1E2E"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="CONFIGURAÇÕES"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:backgroundTint="#6272A4"
+            android:textColor="#F8F8F2"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tv_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CCCCCC"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="4dp"
+            android:background="#282A36"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,895 @@
+{
+  "_format": "siliconfet.thermalmonitor.settings",
+  "_version": 1,
+  "_note": "Configuracao padrao do ThermalMonitor Snapdragon (DarkAMOLED_FET). Aplicada na primeira execucao e pelo botao RESTAURAR PADRAO. Nomes, visibilidade e titulo sao completados pelo mapa do chip (HwProfile).",
+  "prefs": {
+    "batt_label_batt_temp": {
+      "t": "s",
+      "v": "Temp. Bateria"
+    },
+    "batt_label_charge_limit": {
+      "t": "s",
+      "v": "Limite de Carga"
+    },
+    "batt_label_cycles": {
+      "t": "s",
+      "v": "Ciclos"
+    },
+    "batt_label_first_use": {
+      "t": "s",
+      "v": "Primeiro Uso"
+    },
+    "batt_label_max_temp": {
+      "t": "s",
+      "v": "Temp. Máx. Registrada"
+    },
+    "batt_label_power": {
+      "t": "s",
+      "v": "Potência"
+    },
+    "batt_visible_batt_temp": {
+      "t": "b",
+      "v": true
+    },
+    "batt_visible_charge_limit": {
+      "t": "b",
+      "v": true
+    },
+    "batt_visible_cycles": {
+      "t": "b",
+      "v": true
+    },
+    "batt_visible_first_use": {
+      "t": "b",
+      "v": true
+    },
+    "batt_visible_max_temp": {
+      "t": "b",
+      "v": true
+    },
+    "batt_visible_power": {
+      "t": "b",
+      "v": true
+    },
+    "bg_alpha": {
+      "t": "i",
+      "v": 255
+    },
+    "bg_color": {
+      "t": "i",
+      "v": -16777216
+    },
+    "chip_threshold": {
+      "t": "i",
+      "v": 70
+    },
+    "col_gap_freq": {
+      "t": "f",
+      "v": 0.7954806089401245
+    },
+    "col_gap_load": {
+      "t": "f",
+      "v": 0
+    },
+    "col_gap_name": {
+      "t": "f",
+      "v": 1.7865408658981323
+    },
+    "col_gap_temp": {
+      "t": "f",
+      "v": 0
+    },
+    "col_gap_volt": {
+      "t": "f",
+      "v": 0
+    },
+    "color_CPUCL0": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_CPUCL1": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_CPUCL2": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_CPUCL3": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_DISP": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_DSU": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_G3D": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_ICPU": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_INT": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_ISP": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_MIF": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_NPU0": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_NPU1": {
+      "t": "i",
+      "v": -460558
+    },
+    "color_NPUCON": {
+      "t": "i",
+      "v": -460558
+    },
+    "control_size": {
+      "t": "f",
+      "v": 1
+    },
+    "deep_pause_screen_off": {
+      "t": "b",
+      "v": false
+    },
+    "elemcolor_dim": {
+      "t": "i",
+      "v": -10325340
+    },
+    "elemcolor_freq": {
+      "t": "i",
+      "v": -1
+    },
+    "elemcolor_gpumem": {
+      "t": "i",
+      "v": -4941
+    },
+    "elemcolor_load": {
+      "t": "i",
+      "v": -4342339
+    },
+    "elemcolor_pwrbat": {
+      "t": "i",
+      "v": -11470213
+    },
+    "elemcolor_ram": {
+      "t": "i",
+      "v": -12532481
+    },
+    "elemcolor_section": {
+      "t": "i",
+      "v": -7607811
+    },
+    "elemcolor_swap": {
+      "t": "i",
+      "v": -4353031
+    },
+    "elemcolor_volt": {
+      "t": "i",
+      "v": -11470213
+    },
+    "font_family": {
+      "t": "s",
+      "v": "styrene"
+    },
+    "font_size": {
+      "t": "f",
+      "v": 1
+    },
+    "freq_label_cpucl0": {
+      "t": "s",
+      "v": "Little"
+    },
+    "freq_label_cpucl1": {
+      "t": "s",
+      "v": "Mid"
+    },
+    "freq_label_cpucl2": {
+      "t": "s",
+      "v": "Big"
+    },
+    "freq_label_cpucl3": {
+      "t": "s",
+      "v": "Prime"
+    },
+    "freq_label_disp": {
+      "t": "s",
+      "v": "DISP"
+    },
+    "freq_label_dsu": {
+      "t": "s",
+      "v": "L3"
+    },
+    "freq_label_gpu": {
+      "t": "s",
+      "v": "GPU"
+    },
+    "freq_label_icpu": {
+      "t": "s",
+      "v": "ICPU"
+    },
+    "freq_label_int": {
+      "t": "s",
+      "v": "LLCC"
+    },
+    "freq_label_isp": {
+      "t": "s",
+      "v": "ISP"
+    },
+    "freq_label_mif": {
+      "t": "s",
+      "v": "DDR"
+    },
+    "freq_label_npu0": {
+      "t": "s",
+      "v": "NSP"
+    },
+    "freq_label_npu1": {
+      "t": "s",
+      "v": "NPU"
+    },
+    "freq_label_npucon": {
+      "t": "s",
+      "v": "Vídeo"
+    },
+    "freq_visible_cpucl0": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_cpucl1": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_cpucl2": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_cpucl3": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_disp": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_dsu": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_gpu": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_icpu": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_int": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_isp": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_mif": {
+      "t": "b",
+      "v": true
+    },
+    "freq_visible_npu0": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_npu1": {
+      "t": "b",
+      "v": false
+    },
+    "freq_visible_npucon": {
+      "t": "b",
+      "v": false
+    },
+    "fs_chart": {
+      "t": "f",
+      "v": 1
+    },
+    "fs_gpumem": {
+      "t": "f",
+      "v": 0.800000011920929
+    },
+    "fs_label": {
+      "t": "f",
+      "v": 1
+    },
+    "fs_title": {
+      "t": "f",
+      "v": 1
+    },
+    "fs_value": {
+      "t": "f",
+      "v": 1
+    },
+    "gap_power_section": {
+      "t": "f",
+      "v": 0.7776514291763306
+    },
+    "gpumem_visible": {
+      "t": "b",
+      "v": true
+    },
+    "h_spacing": {
+      "t": "f",
+      "v": 0
+    },
+    "history_enabled": {
+      "t": "b",
+      "v": false
+    },
+    "hotspot_count_95": {
+      "t": "i",
+      "v": 0
+    },
+    "interval_cpu_freq": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_cpu_loads": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_cpu_temp": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_devfreq": {
+      "t": "i",
+      "v": 1000
+    },
+    "interval_gpu_freq": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_gpu_load": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_gpu_mem": {
+      "t": "i",
+      "v": 1000
+    },
+    "interval_gpu_temp": {
+      "t": "i",
+      "v": 500
+    },
+    "interval_npu": {
+      "t": "i",
+      "v": 1000
+    },
+    "interval_ram": {
+      "t": "i",
+      "v": 2000
+    },
+    "label_CPUCL0": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_CPUCL1": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_CPUCL2": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_CPUCL3": {
+      "t": "s",
+      "v": "----"
+    },
+    "label_DISP": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_DSU": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_G3D": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_ICPU": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_INT": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_ISP": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_MIF": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_NPU0": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_NPU1": {
+      "t": "s",
+      "v": "-"
+    },
+    "label_NPUCON": {
+      "t": "s",
+      "v": "-"
+    },
+    "main_ac_visible": {
+      "t": "b",
+      "v": true
+    },
+    "main_bat_label": {
+      "t": "s",
+      "v": "BAT"
+    },
+    "main_mem_visible": {
+      "t": "b",
+      "v": true
+    },
+    "main_off_ac_x": {
+      "t": "f",
+      "v": 6.290863037109375
+    },
+    "main_off_ac_y": {
+      "t": "f",
+      "v": -2.2587814331054688
+    },
+    "main_off_actxt_x": {
+      "t": "f",
+      "v": 0
+    },
+    "main_off_actxt_y": {
+      "t": "f",
+      "v": 0
+    },
+    "main_off_bus_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_bus_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_cnt_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_cnt_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_div_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_div_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsu_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsu_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsuf_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsuf_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsun_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsun_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsut_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsut_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsuv_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_dsuv_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_hot_x": {
+      "t": "f",
+      "v": -9.970367431640625
+    },
+    "main_off_hot_y": {
+      "t": "f",
+      "v": -6.25
+    },
+    "main_off_mem_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mem_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_memgb_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_memgb_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mempct_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mempct_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mif_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mif_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_miff_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_miff_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mifn_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mifn_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mift_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mift_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mifv_x": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_off_mifv_y": {
+      "t": "f",
+      "v": 0.0
+    },
+    "main_pd_label": {
+      "t": "s",
+      "v": "PD"
+    },
+    "main_show_power": {
+      "t": "b",
+      "v": true
+    },
+    "margin_bottom": {
+      "t": "f",
+      "v": 1
+    },
+    "margin_left": {
+      "t": "f",
+      "v": 11
+    },
+    "margin_right": {
+      "t": "f",
+      "v": 4
+    },
+    "margin_top": {
+      "t": "f",
+      "v": 9
+    },
+    "mem_split": {
+      "t": "f",
+      "v": 0.5
+    },
+    "minimal_mode": {
+      "t": "b",
+      "v": false
+    },
+    "name_CPUCL0": {
+      "t": "s",
+      "v": "LITTLE"
+    },
+    "name_CPUCL1": {
+      "t": "s",
+      "v": "MID"
+    },
+    "name_CPUCL2": {
+      "t": "s",
+      "v": "BIG"
+    },
+    "name_CPUCL3": {
+      "t": "s",
+      "v": "PRIME"
+    },
+    "name_DISP": {
+      "t": "s",
+      "v": "DISPLAY"
+    },
+    "name_DSU": {
+      "t": "s",
+      "v": "L3"
+    },
+    "name_G3D": {
+      "t": "s",
+      "v": "ADRENO"
+    },
+    "name_ICPU": {
+      "t": "s",
+      "v": "ICPU"
+    },
+    "name_INT": {
+      "t": "s",
+      "v": "LLCC"
+    },
+    "name_ISP": {
+      "t": "s",
+      "v": "ISP"
+    },
+    "name_MIF": {
+      "t": "s",
+      "v": "DDR"
+    },
+    "name_NPU0": {
+      "t": "s",
+      "v": "HEXAGON"
+    },
+    "name_NPU1": {
+      "t": "s",
+      "v": "NPU"
+    },
+    "name_NPUCON": {
+      "t": "s",
+      "v": "VIDEO"
+    },
+    "off_gpumem_x": {
+      "t": "f",
+      "v": 12
+    },
+    "off_gpumem_y": {
+      "t": "f",
+      "v": 0
+    },
+    "panel_battery": {
+      "t": "b",
+      "v": false
+    },
+    "panel_devfreq": {
+      "t": "b",
+      "v": false
+    },
+    "panel_history": {
+      "t": "b",
+      "v": false
+    },
+    "panel_main": {
+      "t": "b",
+      "v": true
+    },
+    "power_alert_color": {
+      "t": "i",
+      "v": -43691
+    },
+    "power_interval": {
+      "t": "i",
+      "v": 500
+    },
+    "power_normal_color": {
+      "t": "i",
+      "v": -11470213
+    },
+    "power_threshold": {
+      "t": "f",
+      "v": 10
+    },
+    "show_hotspot_95": {
+      "t": "b",
+      "v": true
+    },
+    "tel_bar_intensity": {
+      "t": "f",
+      "v": 0.3665918707847595
+    },
+    "tel_mem_label_size": {
+      "t": "f",
+      "v": 0.7297411561012268
+    },
+    "tel_off_ramlbl_x": {
+      "t": "f",
+      "v": 0
+    },
+    "tel_off_ramlbl_y": {
+      "t": "f",
+      "v": -2.5877914428710938
+    },
+    "tel_off_swaplbl_x": {
+      "t": "f",
+      "v": 0
+    },
+    "tel_off_swaplbl_y": {
+      "t": "f",
+      "v": -2.4179000854492188
+    },
+    "telemetry_core_indent": {
+      "t": "f",
+      "v": 6
+    },
+    "title_battery": {
+      "t": "s",
+      "v": "BATERIA"
+    },
+    "title_devfreq": {
+      "t": "s",
+      "v": "FREQUÊNCIAS"
+    },
+    "title_history": {
+      "t": "s",
+      "v": "HISTÓRICO 24H"
+    },
+    "v_spacing": {
+      "t": "f",
+      "v": 0
+    },
+    "visible_CPUCL0": {
+      "t": "b",
+      "v": true
+    },
+    "visible_CPUCL1": {
+      "t": "b",
+      "v": true
+    },
+    "visible_CPUCL2": {
+      "t": "b",
+      "v": true
+    },
+    "visible_CPUCL3": {
+      "t": "b",
+      "v": true
+    },
+    "visible_DISP": {
+      "t": "b",
+      "v": true
+    },
+    "visible_DSU": {
+      "t": "b",
+      "v": true
+    },
+    "visible_G3D": {
+      "t": "b",
+      "v": true
+    },
+    "visible_ICPU": {
+      "t": "b",
+      "v": true
+    },
+    "visible_INT": {
+      "t": "b",
+      "v": true
+    },
+    "visible_ISP": {
+      "t": "b",
+      "v": true
+    },
+    "visible_MIF": {
+      "t": "b",
+      "v": true
+    },
+    "visible_NPU0": {
+      "t": "b",
+      "v": true
+    },
+    "visible_NPU1": {
+      "t": "b",
+      "v": true
+    },
+    "visible_NPUCON": {
+      "t": "b",
+      "v": true
+    },
+    "volt_visible_CPUCL0": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_CPUCL1": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_CPUCL2": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_CPUCL3": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_DISP": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_DSU": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_G3D": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_ICPU": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_INT": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_ISP": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_MIF": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_NPU0": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_NPU1": {
+      "t": "b",
+      "v": false
+    },
+    "volt_visible_NPUCON": {
+      "t": "b",
+      "v": false
+    }
+  }
+}
